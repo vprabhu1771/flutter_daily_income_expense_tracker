@@ -66,9 +66,9 @@ class _AllTransactionScreenState extends State<AllTransactionScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
+      // appBar: AppBar(
+      //   title: Text(widget.title),
+      // ),
       body: isLoading
           ? Center(
               child: CircularProgressIndicator(),
